@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.card:hover{
+    
+  border:1px solid violet;
+
+}
