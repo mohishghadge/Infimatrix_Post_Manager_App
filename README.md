@@ -1,12 +1,53 @@
-# React + Vite
+A simple and responsive Post Manager web app built with React.js, displaying posts with pagination functionality. It fetches posts from a public API and lets you navigate through batches of posts seamlessly.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tech Stack
 
-Currently, two official plugins are available:
+- React.js
+- Tailwind CSS
+- JSONPlaceholder API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Fetch and display posts from the API
+- Pagination with next and previous buttons
+- Highlight the current page
+- Smooth UI with responsive grid layout
+- Error handling and loading states
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Setup & Installation
+
+**Clone the repository:**
+```bash
+git clone https://github.com/your-username/PostManagerApp.git
+```
+Navigate to the project directory:
+```cd PostManagerApp```
+
+Install dependencies:
+``` npm install ```
+
+Run the app:
+```npm start```
+
+
+##📝 Usage
+
+- The app fetches posts from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/posts).
+- You’ll see posts displayed in a grid layout.
+- Use the pagination buttons (◀ and ▶) to navigate through the pages.
+- Current page number is highlighted.
+- Handles loading and error states.
+
+## API Reference
+```Endpoint:
+ https://jsonplaceholder.typicode.com/posts
+```
+Query Parameters:
+- _limit - Number of posts per page
+- _page - Current page number
+
+## 🚀 Future Enhancements
+
+- Search functionality
+- Sorting and filtering
+- Add post feature
