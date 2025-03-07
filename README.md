@@ -1,4 +1,4 @@
-A simple and responsive Post Manager web app built with React.js, displaying posts with pagination functionality. It fetches posts from a public API and lets you navigate through batches of posts seamlessly.
+A simple and responsive Post Manager web app built with React.js, displaying posts with pagination, searching, adding and deleting the post functionality. It fetches posts from a public API and lets you navigate through batches of posts seamlessly.
 
 ## 🛠️ Tech Stack
 
@@ -11,6 +11,8 @@ A simple and responsive Post Manager web app built with React.js, displaying pos
 - Fetch and display posts from the API
 - Pagination with next and previous buttons
 - Highlight the current page
+- Show the modal with specific cards data
+- Adding & Deleting the posts
 - Smooth UI with responsive grid layout
 - Error handling and loading states
 
@@ -51,3 +53,4 @@ Query Parameters:
 - Search functionality
 - Sorting and filtering
 - Add post feature
+- Delete post feature
